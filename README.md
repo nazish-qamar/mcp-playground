@@ -1,4 +1,6 @@
 # mcp-playground
 
-## uv pip install "mcp[cli]"
-## mcp dev server.py
+## installing dependency
+### uv pip install "mcp[cli]"
+## starting server
+### mcp dev server.py
