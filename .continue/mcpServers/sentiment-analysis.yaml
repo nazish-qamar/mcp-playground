@@ -1,0 +1,12 @@
+name: "New MCP server"
+version: "0.0.1"
+schema: "v1"
+mcpServers:
+  - name: "sentiment-analysis"
+    command: "npx"
+    args: 
+      - "-y"
+      - "mcp-remote"
+      - "https://nazish-qamar-sentiment-prediction.hf.space/gradio_api/mcp/sse"
+      - "--transport"
+      - "sse-only"

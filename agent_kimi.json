@@ -1,0 +1,11 @@
+{
+    "model": "moonshotai/Kimi-K2-Instruct",
+    "provider": "together",
+    "servers": [
+        {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["@playwright/mcp@latest"]
+        }
+    ]
+}

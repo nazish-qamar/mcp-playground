@@ -1,0 +1,12 @@
+name: Ollama Gemma model
+version: 0.0.1
+schema: v1
+models:
+  - provider: ollama
+    model: gemma3:1b
+    defaultCompletionOptions:
+      contextLength: 8192
+    name: Ollama Gemma
+    roles:
+      - chat
+      - edit

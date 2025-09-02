@@ -1,0 +1,12 @@
+{  
+  "model": "gemma3:1b",
+  "provider": "openai",
+  "base_url": "http://localhost:8000/v1",
+  "api_key": "dummy",
+  "servers": [
+    {
+      "type": "sse",
+      "url": "https://nazish-qamar-word-operations.hf.space/gradio_api/mcp/sse"
+    }
+  ]
+}

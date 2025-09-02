@@ -6,4 +6,10 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "mcp[cli]>=1.13.1",
+    "huggingface_hub[mcp]>=0.32.0",
+    "gradio[mcp]",
+    "smolagents[mcp]",
+    "smolagents[litellm]",
+    "fastmcp",
+    "mcp",
 ]

@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "provider": "nebius",
+  "servers": [
+    {
+      "type": "sse",
+      "url": "https://nazish-qamar-sentiment-prediction.hf.space/gradio_api/mcp/sse"
+    }
+  ]
+}
