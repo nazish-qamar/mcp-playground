@@ -1,0 +1,16 @@
+{
+	"model": "ollama/gemma3:1b",
+	"endpointUrl": "http://localhost:11434/v1",
+	"servers": [
+		{
+			"type": "stdio",
+			"config": {
+				"command": "npx",
+				"args": [
+					"mcp-remote",
+					"http://localhost:11434/v1/mcp/sse"
+				]
+			}
+		}
+	]
+}
